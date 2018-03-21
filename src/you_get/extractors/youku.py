@@ -79,9 +79,9 @@ class Youku(VideoExtractor):
         self.api_error_msg = None
 
         if cookies:
-            self.ccode = '0513'
+            self.ccode = '03020101'
         else:
-            self.ccode = '0507'
+            self.ccode = '03020101'
         self.utid = None
 
     def youku_ups(self):
